@@ -1,0 +1,21 @@
+producer:
+  backend: RABBITMQ
+  queue: default_producer_queue
+  connection_params:
+    host: localhost
+    port: 5672
+    virtual_host: /
+    credentials:
+      username: guest
+      password: guest
+consumer:
+  backend: RABBITMQ
+  queue: default_consumer_queue
+  connection_params:
+    host: localhost
+    port: 5672
+    virtual_host: /
+    credentials:
+      username: guest
+      password: guest
+# Example RabbitMQ Configuration

@@ -1,0 +1,2 @@
+[console_scripts]
+greyhound = greyhound_messaging.cli.main:consume

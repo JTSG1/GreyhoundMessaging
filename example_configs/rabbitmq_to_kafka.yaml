@@ -1,0 +1,16 @@
+producer:
+  backend: KAFKA
+  queue: default_producer_queue
+  connection_params:
+    bootstrap_servers: localhost:9092
+    group_id: test-consumer-group
+consumer:
+  backend: RABBITMQ
+  queue: default_consumer_queue
+  connection_params:
+    host: localhost
+    port: 5672
+    virtual_host: /
+    credentials:
+      username: guest
+      password: guest
