@@ -1,0 +1,75 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Setuptools/distribute
+*.egg
+*.egg-info/
+.eggs/
+
+# Wheels
+*.whl
+
+# Test / coverage
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+htmlcov/
+
+# mypy / type check / lint tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+
+# pyenv
+.python-version
+
+# pip-tools
+*.txt
+!requirements*.txt
+
+# IDEs/editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# local config
+*.env
+.env.*
+*.secret
+secrets.*
+
+# Pydantic schema artifacts (if any)
+*.schema.json
+
+# Build system
+build/
+site/
+
+__pycache__/
